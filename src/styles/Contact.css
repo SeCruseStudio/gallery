@@ -1,0 +1,107 @@
+.contact-split-containter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .contact_top_div {
+    position: absolute;
+    align: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: -1%;
+    background-color:#6b767c;
+    text-align:center;
+    font-family: "EconomicaB";
+  }
+  textarea {
+    font-family: "Economica";
+    padding-right: 5%;
+    font-size: 18px;
+  }
+
+  form {
+      margin-top: 10%;
+  }
+  
+  .contact_bottom_div {
+    position: absolute;
+    top: 90%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color:#242526;
+    text-align:center;
+    color:#FFFFFF;
+  }
+  
+    .contact-bottom {
+      align: center;
+      color: black;
+    }
+  
+    .contact-bottom:before { 
+      content: "Or email me directly: SeCruseStudio@gmail.com";
+   color: white;
+   font-family: "EconomicaB";
+   font-size: 25px;
+  }
+   /* Style inputs */
+   input[type=text], select {
+    width: 30%;
+    padding: 12px 1px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #242526;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Economica";
+    padding-right: 5%;
+    font-size: 25px;
+  }
+
+  
+  /* Style the submit button */
+  input[type=submit] {
+    width: 30%;
+    background-color: #7d32a8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  label {
+      padding-right: 5%;
+      font-size: 25px;
+      font-family: "EconomicaB";
+  }
+  
+  /* Add a background color to the submit button on mouse-over */
+  input[type=submit]:hover {
+    background-color: #a15bc9;
+  } 
+  
+  b {
+      font-family: "EconomicaB";
+  }
+  
+  @font-face {
+      font-family: 'PhilosopherB';
+      src: local('PhilosopherB'), url(../fonts/Philosopher-Bold.ttf) format('TrueType');
+    }
+
+    @font-face {
+        font-family: 'EconomicaB';
+        src: local('Economica'), url(../fonts/Economica-Bold.ttf) format('TrueType');
+      }
+    
+      @font-face {
+        font-family: 'Economica';
+        src: local('Economica'), url(../fonts/Economica-Regular.ttf) format('TrueType');
+      }
+    

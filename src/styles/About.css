@@ -1,0 +1,38 @@
+.div_about {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: -1%;
+    background-color:#6b767c;
+    text-align:center;
+    font-family: "EconomicaB";
+    font-size: 25px;
+}
+.div_body {
+    font-family: "Economica";
+    font-size: 30px;
+    position: absolute;
+    text-align: right;
+    right: 10%;
+    left: 20%;
+}
+
+.supplies_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+}
+
+@font-face {
+    font-family: 'EconomicaB';
+    src: local('Economica'), url(../fonts/Economica-Bold.ttf) format('TrueType');
+  }
+
+@font-face {
+font-family: 'Economica';
+src: local('Economica'), url(../fonts/Economica-Regular.ttf) format('TrueType');
+}
