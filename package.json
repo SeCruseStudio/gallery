@@ -1,9 +1,10 @@
 {
-  "homepage": "https://SeCruseStudio.github.io/gallery",
   "name": "gallery",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://secrusestudio.github.io/gallery",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -16,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
+    "predeploy": "react-scripts build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
